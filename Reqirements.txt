@@ -1,0 +1,17 @@
+## Tools Required
+MySQL Server
+PyMySQL
+python-dotenv
+jupyter
+
+## Files in this repo
+1. database_connection.ipynb - Python file that connects to the database
+2. database_schema.sql - Creates the tables and relationship
+3. result_views -  Creates the views for results
+
+## How to run
+1. Create database in MySQL
+2. Import the SQL files
+3. Run database_schema.sql
+4. Run result_views.sql
+5. Run the Python database_connection.ipynb
